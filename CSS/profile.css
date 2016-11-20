@@ -1,0 +1,58 @@
+.html{
+	background-color: #e0f7fa;
+}
+
+.profile-picture{
+	max-width: 100%;
+}
+
+.card-footer{
+	text-align: center;
+	font-size: 25px;
+}
+
+.card-title{
+	font-size:25px;
+	font-family: arial;
+	color: #b2dfdb;
+	font-weight:bold;
+}
+
+.page-title{
+	font-size:45;
+	font-family: arial;
+	font-weight: bold;
+	color: #b2dfdb;
+}
+
+.card-text{
+	font-size: 15;
+	color: #8e949e;
+}
+.navbar{
+	margin-bottom: 0;
+	border-radius: 0;
+}
+.navbar-dark{
+	background-color: #b2dfdb;
+}
+.navbar-brand{
+	font-size: 25;
+}
+
+.nav-item{
+	font-size:25;
+}
+
+.large-display{
+	font-size: 150;
+	color: gray;
+	font-family: serif;
+}
+
+.jumbotron{
+	background-image: url("../img/backgroundpaint1.jpg");
+	background-size: cover;
+	color: white;
+	border-radius:0;
+}
