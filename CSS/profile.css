@@ -19,40 +19,74 @@
 }
 
 .page-title{
-	font-size:45;
+	font-size:45px;
 	font-family: arial;
 	font-weight: bold;
 	color: #b2dfdb;
 }
 
+
 .card-text{
-	font-size: 15;
+	font-size: 15px;
 	color: #8e949e;
 }
+
+
+/*navbar*/
 .navbar{
-	margin-bottom: 0;
-	border-radius: 0;
+	margin-bottom: 0px;
+	border-radius: 0px;
 }
 .navbar-dark{
 	background-color: #b2dfdb;
 }
 .navbar-brand{
-	font-size: 25;
+	font-size: 25px;
 }
 
 .nav-item{
-	font-size:25;
+	font-size:25px;
 }
 
-.large-display{
-	font-size: 150;
+
+/*index*/
+
+.sub-text{
+	font-size: 15px;
+	color: #8e949e;
+	font-style: italic;
+	margin-bottom:30px;
+	text-shadow:1px 1px 1px black;
+}
+.jumbotron .large-display{
+	font-size: 150px;
 	color: gray;
 	font-family: serif;
+	text-shadow:5px 2px 10px white;
+	margin-bottom: 70px;
+}
+.jumbotron .small-display{
+	font-size: 75px;
+	color: gray;
+	font-family: serif;
+	text-shadow:2px 1px 5px white;
 }
 
 .jumbotron{
 	background-image: url("../img/backgroundpaint1.jpg");
 	background-size: cover;
-	color: white;
+	color: gray;
 	border-radius:0;
+	min-height: 100%;
+}
+.btn-color{
+	background-color: #b2dfdb;
+	border-color: #b2dfdb;
+	box-shadow:1px 1px 3px black;
+}
+
+/*gallery*/
+
+.centering{
+	text-align: center;
 }

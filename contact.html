@@ -5,6 +5,7 @@
     <link href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/profile.css">
+    <link rel="stylesheet" href="CSS/animate.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <!--navigation bar-->
@@ -16,21 +17,101 @@
 						<a class="nav-link" href="profile.html">Home</a>
 					</li>
 					<li class="nav-item active">
+						<a class="nav-link" href="gallery.html">Gallery</a>
+					</li class="nav-item active">
+					<li class="nav-item active">
+						<a class="nav-link" href="blog.html">Blog</a>
+					</li>
+					<li class="nav-item active">
 						<a class="nav-link" href="contact.html">Contact</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 <!--nav bar end-->
+<body>
+	<div class="container">
+		<h1 class="page-title">Welcome</h1>
+		<!-- container?-->
+		<div class="row">
+		<!-- row- a box ish -->
+		<!--left column-->
+			<div class="col-xs-12 col-md-4"> <!-- left column opening div-->
+				<div class="card"> <!-- card opening div-->
+					<div class ="card-block">
+						<img class="img-circle profile-picture" src="img/paint1.jpeg">
+						</img>
+						
+							<h4 class="card-title">Hey you</h4>
+						
+						<div class="card-text">
+							Welcome to my art page  
+						</div>	
+					</div>
+				</div> <!-- card closing div-->
 
-	<body>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3">
-				<!--empty column-->
-				</div>
+				 <div class="card"> <!-- about me opening-->
+            		<div class="card-block">
+              			
+              				<h4 class="card-title">Who am I?</h4>
+              			<div class="card-text">
+              			
+              			<p>
+                			<i class= "fa fa-graduation-cap"></i>
+                			Maths Student at KCL
+              			</p>
+              			<p>
+              				<i class= "fa fa-map-marker"></i>
+              				London
+              			</p>	
+              			<p><i class= "fa fa-heart"></i>
+              				Painting and ice skating. Hate? probably you
+              			</p>
+              			</div>
+              		</div>	
+              			<div class="card-footer">
+              				<a href="https://twitter.com/missmarlenad" targer="_blank">
+                				<i class="fa fa-twitter"></i>
+            				</a>
+            				<a href="https://facebook.com/marlenasfeather" target="_blank">
+            					<i class="fa fa-facebook"></i>
+               				</a>
+               				<a href="https://instagram.com/missymalii" target="_blank">
+               					<i class="fa fa-instagram"></i>
+               				</a>
+               			</div>                  
+         		 </div> <!-- about me closing-->
+
+ 				<div class="card"> <!-- skils opening-->
+            		<div class="card-block">
+              		
+              			<h4 class="card-title">Skills</h4>
+              				<div class="card-text">
+              					<p>
+                					Ice skating
+               					 	<progress class="progress progress-success" value="10" max="100">25%</progress>
+              					</p>
+              					<p>
+                					Painting
+                					<progress class="progress progress-info" value="45" max="100">50%</progress>
+             					 </p>
+              					<p>
+               						 Running
+               						 <progress class="progress progress-warning" value="2" max="100">75%</progress>
+             					 </p>
+             					 <p>
+              						 Heat Sensitivity
+             					   	<progress class="progress progress-danger" value="100" max="100">100%</progress>
+              					</p>
+              				</div>
+            			        		
+          			</div>
+				</div> <!-- skils closing-->
+
+			</div>  <!--left column closing div-->
+
 				<!--middle column-->
-				<div class="col-md-6">
+				<div class="col-md-8">
 					<div class="card">
 						<div class="card-block">
 								<h2 class="card-title">Contact Details</h3>
@@ -41,7 +122,6 @@
 					</div>
 				</div>
 				<!--end of middle column-->
-				<div class="col-md-3"> not sure what goes here yet</div>
 			</div>
 		</div>
 	</body>
